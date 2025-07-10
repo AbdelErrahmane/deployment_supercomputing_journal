@@ -6,7 +6,7 @@ COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
 COPY app ./app
-COPY XGB_200_chi2_20.pkl ./
+COPY Best_models ./Best_models
 
 EXPOSE 8000
 

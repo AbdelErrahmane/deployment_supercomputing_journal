@@ -1,0 +1,702 @@
+NF-ToN-IoT-v2
+######################################
+Discretization 
+######################################
+********
+Chi2 ranked 
+********
+
+['DNS_QUERY_TYPE',
+ 'L7_PROTO',
+ 'IN_BYTES',
+ 'SRC_TO_DST_SECOND_BYTES',
+ 'LONGEST_FLOW_PKT',
+ 'OUT_BYTES',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'IN_PKTS',
+ 'OUT_PKTS',
+ 'TCP_WIN_MAX_OUT',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'L4_DST_PORT_C',
+ 'MIN_IP_PKT_LEN',
+ 'TCP_WIN_MAX_IN',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'SHORTEST_FLOW_PKT',
+ 'MIN_TTL',
+ 'SRC_TO_DST_AVG_THROUGHPUT',
+ 'NUM_PKTS_512_TO_1024_BYTES',
+ 'NUM_PKTS_256_TO_512_BYTES',
+ 'PROTOCOL',
+ 'TCP_FLAGS',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'DURATION_OUT',
+ 'DURATION_IN',
+ 'ICMP_IPV4_TYPE',
+ 'ICMP_TYPE',
+ 'L4_SRC_PORT_C',
+ 'DNS_TTL_ANSWER',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'IPV4_SRC_ADDR_CLASSE',
+ 'RETRANSMITTED_IN_BYTES',
+ 'NUM_PKTS_128_TO_256_BYTES',
+ 'RETRANSMITTED_IN_PKTS',
+ 'RETRANSMITTED_OUT_BYTES']
+
+
+********
+MUTUAL INFORMATION¶
+********
+['TCP_WIN_MAX_IN',
+ 'SRC_TO_DST_AVG_THROUGHPUT',
+ 'LONGEST_FLOW_PKT',
+ 'IN_BYTES',
+ 'SRC_TO_DST_SECOND_BYTES',
+ 'SHORTEST_FLOW_PKT',
+ 'IPV4_SRC_ADDR_CLASSE',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'PROTOCOL',
+ 'L4_SRC_PORT_C',
+ 'TCP_FLAGS',
+ 'L4_DST_PORT_C',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'MIN_IP_PKT_LEN',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'OUT_BYTES',
+ 'TCP_WIN_MAX_OUT',
+ 'OUT_PKTS',
+ 'MIN_TTL',
+ 'IN_PKTS',
+ 'L7_PROTO',
+ 'NUM_PKTS_256_TO_512_BYTES',
+ 'NUM_PKTS_512_TO_1024_BYTES',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'DURATION_OUT',
+ 'DNS_QUERY_TYPE',
+ 'DURATION_IN',
+ 'DNS_TTL_ANSWER',
+ 'ICMP_TYPE',
+ 'ICMP_IPV4_TYPE',
+ 'RETRANSMITTED_OUT_BYTES',
+ 'RETRANSMITTED_IN_BYTES',
+ 'RETRANSMITTED_IN_PKTS',
+ 'NUM_PKTS_128_TO_256_BYTES']
+
+********
+mRMR selected_features_80
+********
+['IN_BYTES',
+ 'DNS_QUERY_TYPE',
+ 'LONGEST_FLOW_PKT',
+ 'SRC_TO_DST_SECOND_BYTES',
+ 'TCP_WIN_MAX_IN',
+ 'SHORTEST_FLOW_PKT',
+ 'MIN_IP_PKT_LEN',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'TCP_WIN_MAX_OUT',
+ 'OUT_BYTES',
+ 'SRC_TO_DST_AVG_THROUGHPUT',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'OUT_PKTS',
+ 'IN_PKTS',
+ 'MIN_TTL',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'L4_DST_PORT_C',
+ 'NUM_PKTS_512_TO_1024_BYTES',
+ 'L7_PROTO',
+ 'NUM_PKTS_256_TO_512_BYTES',
+ 'DURATION_OUT',
+ 'IPV4_SRC_ADDR_CLASSE',
+ 'PROTOCOL',
+ 'TCP_FLAGS']
+
+
+Samples 
+
+X_chi2_20
+[np.int64(0),
+ np.int64(4),
+ np.int64(4),
+ np.int64(3),
+ np.int64(3),
+ np.int64(2),
+ np.False_,
+ np.False_,
+ np.False_,
+ np.False_,
+ np.True_,
+ np.False_,
+ np.False_,
+ np.False_]
+
+[np.int64(0),
+ np.int64(1),
+ np.int64(1),
+ np.int64(0),
+ np.int64(1),
+ np.int64(0),
+ np.True_,
+ np.False_,
+ np.False_,
+ np.False_,
+ np.False_,
+ np.False_,
+ np.False_,
+ np.False_]
+
+[np.int64(0), np.int64(6), np.int64(6), np.int64(5), np.int64(6), np.int64(4), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(6), np.int64(6), np.int64(4), np.int64(5), np.int64(4), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(2), np.int64(2), np.int64(1), np.int64(2), np.int64(1), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(7), np.int64(7), np.int64(5), np.int64(5), np.int64(5), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(6), np.int64(6), np.int64(5), np.int64(6), np.int64(4), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(2), np.int64(2), np.int64(1), np.int64(2), np.int64(1), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+
+
+
+
+*********X_chi2_50*********
+[np.int64(0), np.int64(6), np.int64(6), np.int64(5), np.int64(6), np.int64(4), np.int64(1), np.int64(3), np.int64(4), np.int64(2), np.int64(1), np.int64(3), np.int64(5), np.int64(1), np.int64(1), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(2), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(6), np.int64(6), np.int64(4), np.int64(5), np.int64(4), np.int64(1), np.int64(2), np.int64(3), np.int64(2), np.int64(4), np.int64(3), np.int64(5), np.int64(1), np.int64(1), np.int64(5), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(2), np.int64(2), np.int64(1), np.int64(2), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(0), np.int64(3), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(2), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(7), np.int64(7), np.int64(5), np.int64(5), np.int64(5), np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(2), np.int64(3), np.int64(5), np.int64(4), np.int64(1), np.int64(1), np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(2), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(6), np.int64(6), np.int64(5), np.int64(6), np.int64(4), np.int64(1), np.int64(3), np.int64(4), np.int64(2), np.int64(1), np.int64(3), np.int64(5), np.int64(1), np.int64(1), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(2), np.int64(2), np.int64(1), np.int64(2), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(0), np.int64(3), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(2), np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+
+
+*********X_mrmr_80*********
+[np.int64(6), np.int64(0), np.int64(6), np.int64(6), np.int64(3), np.int64(1), np.int64(1), np.int64(5), np.int64(2), np.int64(5), np.int64(0), np.int64(4), np.int64(4), np.int64(3), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(5), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(6), np.int64(0), np.int64(5), np.int64(6), np.int64(3), np.int64(1), np.int64(1), np.int64(5), np.int64(2), np.int64(4), np.int64(5), np.int64(4), np.int64(3), np.int64(2), np.int64(1), np.int64(0), np.int64(4), np.int64(0), np.int64(1), np.int64(0), np.int64(5), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(2), np.int64(0), np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(3), np.int64(1), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(4), np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(7), np.int64(0), np.int64(5), np.int64(7), np.int64(3), np.int64(4), np.int64(3), np.int64(5), np.int64(2), np.int64(5), np.int64(1), np.int64(5), np.int64(4), np.int64(3), np.int64(1), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(6), np.int64(0), np.int64(6), np.int64(6), np.int64(3), np.int64(1), np.int64(1), np.int64(5), np.int64(2), np.int64(5), np.int64(0), np.int64(4), np.int64(4), np.int64(3), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(5), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(2), np.int64(0), np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(3), np.int64(1), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(4), np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+
+*********X*********
+[np.int64(6), np.int64(3), np.int64(5), np.int64(4), np.int64(5), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(6), np.int64(1), np.int64(1), np.int64(6), np.int64(4), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(2), np.int64(6), np.int64(7), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(1), np.int64(3), np.int64(3)]
+[np.int64(6), np.int64(2), np.int64(4), np.int64(3), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(1), np.int64(1), np.int64(6), np.int64(4), np.int64(0), np.int64(0), np.int64(0), np.int64(5), np.int64(4), np.int64(5), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(2), np.int64(6), np.int64(7), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(2), np.int64(0), np.int64(1), np.int64(1), np.int64(4), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(1), np.int64(1), np.int64(2), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(2), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(1), np.int64(3), np.int64(3)]
+[np.int64(7), np.int64(3), np.int64(5), np.int64(4), np.int64(5), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(5), np.int64(4), np.int64(3), np.int64(7), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(2), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(2), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(3), np.int64(3)]
+[np.int64(6), np.int64(3), np.int64(5), np.int64(4), np.int64(5), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(6), np.int64(1), np.int64(1), np.int64(6), np.int64(4), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(2), np.int64(6), np.int64(7), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(2), np.int64(0), np.int64(1), np.int64(1), np.int64(4), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(1), np.int64(1), np.int64(2), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(3), np.int64(2), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(3), np.int64(3)]
+
+
+######################################
+Standarization 
+######################################
+
+
+*************ANOVA 80% ******************
+['IN_BYTES',
+ 'TCP_FLAGS',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'DURATION_IN',
+ 'DURATION_OUT',
+ 'MIN_TTL',
+ 'LONGEST_FLOW_PKT',
+ 'SHORTEST_FLOW_PKT',
+ 'MIN_IP_PKT_LEN',
+ 'RETRANSMITTED_IN_BYTES',
+ 'RETRANSMITTED_IN_PKTS',
+ 'RETRANSMITTED_OUT_BYTES',
+ 'SRC_TO_DST_AVG_THROUGHPUT',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'NUM_PKTS_128_TO_256_BYTES',
+ 'NUM_PKTS_256_TO_512_BYTES',
+ 'NUM_PKTS_512_TO_1024_BYTES',
+ 'TCP_WIN_MAX_IN',
+ 'TCP_WIN_MAX_OUT']
+
+
+*************KENDALL 80% ******************
+['LONGEST_FLOW_PKT',
+ 'IN_BYTES',
+ 'SRC_TO_DST_SECOND_BYTES',
+ 'TCP_WIN_MAX_IN',
+ 'OUT_BYTES',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'MIN_IP_PKT_LEN',
+ 'OUT_PKTS',
+ 'MIN_TTL',
+ 'TCP_WIN_MAX_OUT',
+ 'IN_PKTS',
+ 'SHORTEST_FLOW_PKT',
+ 'SRC_TO_DST_AVG_THROUGHPUT',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'NUM_PKTS_512_TO_1024_BYTES',
+ 'DURATION_OUT',
+ 'NUM_PKTS_256_TO_512_BYTES',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'DURATION_IN']
+
+************* Categorical Chi2 ranked  ******************
+
+['DNS_QUERY_TYPE',
+ 'L7_PROTO',
+ 'L4_DST_PORT_C',
+ 'PROTOCOL',
+ 'ICMP_IPV4_TYPE',
+ 'ICMP_TYPE',
+ 'L4_SRC_PORT_C',
+ 'DNS_TTL_ANSWER',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'IPV4_SRC_ADDR_CLASSE']
+
+
+************* Categorical MI ranked  ******************
+
+['L4_DST_PORT_C',
+ 'L7_PROTO',
+ 'L4_SRC_PORT_C',
+ 'DNS_QUERY_TYPE',
+ 'DNS_TTL_ANSWER',
+ 'ICMP_IPV4_TYPE',
+ 'ICMP_TYPE',
+ 'PROTOCOL',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'IPV4_SRC_ADDR_CLASSE'] 
+
+
+************* Categorical mRMR 80% ranked  ******************
+['L4_DST_PORT_C',
+ 'DNS_QUERY_TYPE',
+ 'IPV4_SRC_ADDR_CLASSE',
+ 'L7_PROTO',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'PROTOCOL',
+ 'ICMP_IPV4_TYPE',
+ 'L4_SRC_PORT_C']
+
+
+************* Samples  ******************
+
+******  X_K_MI_20 *******************
+
+[np.float64(2.538891420926413), np.float64(1.0791795682806162), np.float64(0.003923774175697326), np.float64(2.577450314448892), np.float64(0.33124044040322775), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(2.538891420926413), np.float64(0.0008906760055194332), np.float64(0.0039237741715550025), np.float64(3.956933699397974), np.float64(0.06058242048730459), np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.46693887132086237), np.float64(-0.00476109898019818), np.float64(0.003923774171533291), np.float64(-0.710201524735885), np.float64(-0.008219282422826801), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(2.538891420926413), np.float64(1.260817847821605), np.float64(0.003923774176395103), np.float64(-0.6786029756987855), np.float64(0.42799314213947987), np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(1.275451765119179), np.float64(0.038304030910973556), np.float64(0.003923774171698728), np.float64(0.4268294419004975), np.float64(0.004434807731142815), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.42771443756214106), np.float64(-0.004628526480533198), np.float64(0.0039237741715338), np.float64(-0.785801791591002), np.float64(-0.008219282422826801), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.46693887132086237), np.float64(-0.00476109898019818), np.float64(0.003923774171533291), np.float64(-0.710201524735885), np.float64(-0.008219282422826801), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(2.538891420926413), np.float64(1.0791795682806162), np.float64(0.003923774175697326), np.float64(2.577450314448892), np.float64(0.33124044040322775), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.46693887132086237), np.float64(-0.00476109898019818), np.float64(0.003923774171533291), np.float64(-0.710201524735885), np.float64(-0.007826298256554454), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(1.275451765119179), np.float64(-0.0009374289898608317), np.float64(0.0039237741715479795), np.float64(-0.6532060110521446), np.float64(0.0036488393985981186), np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+
+
+******  X_A_mRMR_50 *******************
+
+[np.float64(0.9925335922614721), np.float64(2.1017405191602645), np.float64(-0.15122658756126733), np.float64(-0.149942578972266), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(7.199469573738197), np.float64(0.8012708760581772), np.float64(-0.010760010199871214), np.float64(2.577450314448892), np.float64(-0.3085695169187371), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(1.2583637963066654), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.4283441675823014), np.float64(2.9560601467197944), np.float64(-0.022681766396151912), np.float64(3.956933699397974), np.float64(0.2351113775644677), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.9568879040699461), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.2985698027142942), np.float64(-1.2346819134900981), np.float64(-0.19082625226261568), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(0.9925335922614721), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(1.1788042310348181), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(138.45748331745475), np.float64(19.591620500752104), np.float64(-0.016093427445575736), np.float64(-0.6786029756987855), np.float64(3.051206342506315), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(0.9925335922614721), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(3.057105373812355), np.float64(1.275451765119179), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(4.527099465370506), np.float64(0.41381805715927783), np.float64(-0.026132801084548955), np.float64(0.4268294419004975), np.float64(-0.3802832193865574), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-1.134108040100075), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.42771443756214106), np.float64(0.6821949715406116), np.float64(-1.2346819134900981), np.float64(-0.17630250167366085), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.785801791591002), np.float64(-0.5752756627065675), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.9568879040699461), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.2985698027142942), np.float64(-1.2346819134900981), np.float64(-0.19082625226261568), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(0.9925335922614721), np.float64(2.1017405191602645), np.float64(-0.15122658756126733), np.float64(-0.149942578972266), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(7.199469573738197), np.float64(0.8012708760581772), np.float64(-0.010760010199871214), np.float64(2.577450314448892), np.float64(-0.3085695169187371), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(0.8153134562313432), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(-0.19082625226261568), np.float64(-0.14133822066601087), np.float64(-0.027701453215638522), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(1.4355839323367945), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(1.1788042310348181), np.float64(1.275451765119179), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.22806929103987142), np.float64(0.37823111627304135), np.float64(-0.02644653151076687), np.float64(-0.6532060110521446), np.float64(1.9116134436155874), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+
+
+
+******  X_A_mRMR_80 *******************
+
+[np.float64(1.0791795682806162), np.float64(0.9925335922614721), np.float64(2.1017405191602645), np.float64(-0.15122658756126733), np.float64(-0.149942578972266), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(7.199469573738197), np.float64(0.8012708760581772), np.float64(-0.010760010199871214), np.float64(4.231522537166005), np.float64(1.6283187412699602), np.float64(0.6819013122426192), np.float64(2.577450314448892), np.float64(-0.3085695169187371), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(0.0008906760055194332), np.float64(1.2583637963066654), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(0.01030799223540718), np.float64(0.4283441675823014), np.float64(2.9560601467197944), np.float64(-0.022681766396151912), np.float64(0.016242066941899197), np.float64(0.025717781248083), np.float64(-0.009777232755932074), np.float64(3.956933699397974), np.float64(0.2351113775644677), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.00476109898019818), np.float64(-0.9568879040699461), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.2985698027142942), np.float64(-1.2346819134900981), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(-0.19082625226261568), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.012048406012625006), np.float64(-0.020070817609684915), np.float64(-0.009777232755932074), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(1.260817847821605), np.float64(0.9925335922614721), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(1.1788042310348181), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(138.45748331745475), np.float64(19.591620500752104), np.float64(-0.016093427445575736), np.float64(1.4873466605771577), np.float64(0.6209695663990659), np.float64(0.33606203974334353), np.float64(-0.6786029756987855), np.float64(3.051206342506315), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(0.038304030910973556), np.float64(0.9925335922614721), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(3.057105373812355), np.float64(1.275451765119179), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(4.527099465370506), np.float64(0.41381805715927783), np.float64(-0.026132801084548955), np.float64(0.15769443171452022), np.float64(-0.020070817609684915), np.float64(0.33606203974334353), np.float64(0.4268294419004975), np.float64(-0.3802832193865574), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.004628526480533198), np.float64(-1.134108040100075), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.42771443756214106), np.float64(0.6821949715406116), np.float64(-1.2346819134900981), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(-0.17630250167366085), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.012048406012625006), np.float64(-0.020070817609684915), np.float64(-0.009777232755932074), np.float64(-0.785801791591002), np.float64(-0.5752756627065675), np.int64(0), np.int64(0), np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.00476109898019818), np.float64(-0.9568879040699461), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.2985698027142942), np.float64(-1.2346819134900981), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(-0.19082625226261568), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.012048406012625006), np.float64(-0.020070817609684915), np.float64(-0.009777232755932074), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(1.0791795682806162), np.float64(0.9925335922614721), np.float64(2.1017405191602645), np.float64(-0.15122658756126733), np.float64(-0.149942578972266), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(7.199469573738197), np.float64(0.8012708760581772), np.float64(-0.010760010199871214), np.float64(4.231522537166005), np.float64(1.6283187412699602), np.float64(0.6819013122426192), np.float64(2.577450314448892), np.float64(-0.3085695169187371), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.00476109898019818), np.float64(0.8153134562313432), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(-0.19082625226261568), np.float64(-0.14133822066601087), np.float64(-0.027701453215638522), np.float64(-0.012048406012625006), np.float64(-0.020070817609684915), np.float64(-0.009777232755932074), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.0009374289898608317), np.float64(1.4355839323367945), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(1.1788042310348181), np.float64(1.275451765119179), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(0.22806929103987142), np.float64(0.37823111627304135), np.float64(-0.02644653151076687), np.float64(0.1011134858054718), np.float64(-0.020070817609684915), np.float64(0.039628377601107295), np.float64(-0.6532060110521446), np.float64(1.9116134436155874), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+
+
+
+
+******  X *******************
+[np.float64(1.0791795682806162), np.float64(0.3842366032165473), np.float64(0.33124044040322775), np.float64(0.5648651671224987), np.float64(0.9925335922614721), np.float64(2.1017405191602645), np.float64(-0.15122658756126733), np.float64(-0.149942578972266), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.003923774175697326), np.float64(0.003901461369069576), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(7.199469573738197), np.float64(0.8012708760581772), np.float64(-0.010760010199871214), np.float64(4.231522537166005), np.float64(1.6283187412699602), np.float64(0.6819013122426192), np.float64(2.577450314448892), np.float64(-0.3085695169187371), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(0.0008906760055194332), np.float64(0.013041817185666328), np.float64(0.06058242048730459), np.float64(0.034034891596615165), np.float64(1.2583637963066654), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.0039237741715550025), np.float64(0.0039014613683139125), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(0.01030799223540718), np.float64(0.4283441675823014), np.float64(2.9560601467197944), np.float64(-0.022681766396151912), np.float64(0.016242066941899197), np.float64(0.025717781248083), np.float64(-0.009777232755932074), np.float64(3.956933699397974), np.float64(0.2351113775644677), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.00476109898019818), np.float64(-0.010526105736929286), np.float64(-0.008219282422826801), np.float64(-0.012461190931199453), np.float64(-0.9568879040699461), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.2985698027142942), np.float64(-1.2346819134900981), np.float64(0.003923774171533291), np.float64(0.003901461368121822), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(-0.19082625226261568), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.012048406012625006), np.float64(-0.020070817609684915), np.float64(-0.009777232755932074), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(1.260817847821605), np.float64(0.3115688408718775), np.float64(0.42799314213947987), np.float64(0.3130113867635029), np.float64(0.9925335922614721), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(1.1788042310348181), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.003923774176395103), np.float64(0.0039014613693397044), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(138.45748331745475), np.float64(19.591620500752104), np.float64(-0.016093427445575736), np.float64(1.4873466605771577), np.float64(0.6209695663990659), np.float64(0.33606203974334353), np.float64(-0.6786029756987855), np.float64(3.051206342506315), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(0.038304030910973556), np.float64(0.0012578557243685213), np.float64(0.004434807731142815), np.float64(0.03790956514059971), np.float64(0.9925335922614721), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(3.057105373812355), np.float64(1.275451765119179), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.003923774171698728), np.float64(0.003901461368157151), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(4.527099465370506), np.float64(0.41381805715927783), np.float64(-0.026132801084548955), np.float64(0.15769443171452022), np.float64(-0.020070817609684915), np.float64(0.33606203974334353), np.float64(0.4268294419004975), np.float64(-0.3802832193865574), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.004628526480533198), np.float64(-0.010526105736929286), np.float64(-0.008219282422826801), np.float64(-0.012461190931199453), np.float64(-1.134108040100075), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.42771443756214106), np.float64(0.6821949715406116), np.float64(-1.2346819134900981), np.float64(0.0039237741715338), np.float64(0.003901461368121822), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(-0.17630250167366085), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.012048406012625006), np.float64(-0.020070817609684915), np.float64(-0.009777232755932074), np.float64(-0.785801791591002), np.float64(-0.5752756627065675), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.00476109898019818), np.float64(-0.010526105736929286), np.float64(-0.008219282422826801), np.float64(-0.012461190931199453), np.float64(-0.9568879040699461), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.2985698027142942), np.float64(-1.2346819134900981), np.float64(0.003923774171533291), np.float64(0.003901461368121822), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(-0.19082625226261568), np.float64(-0.1591316911091291), np.float64(-0.028015183641856435), np.float64(-0.012048406012625006), np.float64(-0.020070817609684915), np.float64(-0.009777232755932074), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(1.0791795682806162), np.float64(0.3842366032165473), np.float64(0.33124044040322775), np.float64(0.5648651671224987), np.float64(0.9925335922614721), np.float64(2.1017405191602645), np.float64(-0.15122658756126733), np.float64(-0.149942578972266), np.float64(3.057105373812355), np.float64(2.538891420926413), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.003923774175697326), np.float64(0.003901461369069576), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(7.199469573738197), np.float64(0.8012708760581772), np.float64(-0.010760010199871214), np.float64(4.231522537166005), np.float64(1.6283187412699602), np.float64(0.6819013122426192), np.float64(2.577450314448892), np.float64(-0.3085695169187371), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.00476109898019818), np.float64(-0.010526105736929286), np.float64(-0.007826298256554454), np.float64(-0.008586517387214903), np.float64(0.8153134562313432), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(-0.6994969117427188), np.float64(-0.46693887132086237), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.003923774171533291), np.float64(0.003901461368122919), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(-0.19082625226261568), np.float64(-0.14133822066601087), np.float64(-0.027701453215638522), np.float64(-0.012048406012625006), np.float64(-0.020070817609684915), np.float64(-0.009777232755932074), np.float64(-0.710201524735885), np.float64(-0.5752756627065675), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+[np.float64(-0.0009374289898608317), np.float64(-0.0007061378525144468), np.float64(0.0036488393985981186), np.float64(0.006912176788723304), np.float64(1.4355839323367945), np.float64(-0.47582589426650873), np.float64(-0.23868843131529927), np.float64(-0.2479319093581923), np.float64(1.1788042310348181), np.float64(1.275451765119179), np.float64(-0.5050465972942744), np.float64(0.30197977239632917), np.float64(0.0039237741715479795), np.float64(0.0039014613681549568), np.float64(-0.006940315533259173), np.float64(-0.010179835723820684), np.float64(-0.012089743896783777), np.float64(0.22806929103987142), np.float64(0.37823111627304135), np.float64(-0.02644653151076687), np.float64(0.1011134858054718), np.float64(-0.020070817609684915), np.float64(0.039628377601107295), np.float64(-0.6532060110521446), np.float64(1.9116134436155874), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_, np.False_]
+
+
+
+
+
+
+
+
+
+
+
+##################################################################################################################################################################'
+##################################################################################################################################################################
+#####################################################                 NF-BoT-IoT-v2               ##############################################################
+##################################################################################################################################################################
+##################################################################################################################################################################
+
+*****************************************************************************
+############################################################################
+***************** Discretization ****************************************
+######################################################################]
+
+
+********
+Chi2 ranked 
+********
+['L7_PROTO',
+ 'L4_DST_PORT_C',
+ 'DNS_QUERY_TYPE',
+ 'OUT_BYTES',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'OUT_PKTS',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'DNS_TTL_ANSWER',
+ 'DURATION_IN',
+ 'SRC_TO_DST_SECOND_BYTES',
+ 'PROTOCOL',
+ 'TCP_FLAGS',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'L4_SRC_PORT_C',
+ 'IN_PKTS',
+ 'MIN_TTL',
+ 'NUM_PKTS_128_TO_256_BYTES',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'TCP_WIN_MAX_IN',
+ 'RETRANSMITTED_IN_BYTES',
+ 'ICMP_TYPE',
+ 'ICMP_IPV4_TYPE',
+ 'LONGEST_FLOW_PKT',
+ 'SRC_TO_DST_AVG_THROUGHPUT',
+ 'SHORTEST_FLOW_PKT',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'IPV4_SRC_ADDR_CLASSE',
+ 'TCP_WIN_MAX_OUT',
+ 'RETRANSMITTED_OUT_PKTS',
+ 'RETRANSMITTED_OUT_BYTES',
+ 'DURATION_OUT']
+
+**************************
+****** MI ranked **********
+*************************
+
+['SRC_TO_DST_SECOND_BYTES',
+ 'IN_PKTS',
+ 'L4_SRC_PORT_C',
+ 'DURATION_IN',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'PROTOCOL',
+ 'SRC_TO_DST_AVG_THROUGHPUT',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'TCP_FLAGS',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'OUT_PKTS',
+ 'OUT_BYTES',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'ICMP_TYPE',
+ 'ICMP_IPV4_TYPE',
+ 'RETRANSMITTED_IN_BYTES',
+ 'L4_DST_PORT_C',
+ 'DNS_QUERY_TYPE',
+ 'DNS_TTL_ANSWER',
+ 'RETRANSMITTED_OUT_PKTS',
+ 'DURATION_OUT',
+ 'TCP_WIN_MAX_OUT',
+ 'SHORTEST_FLOW_PKT',
+ 'MIN_TTL',
+ 'RETRANSMITTED_OUT_BYTES',
+ 'LONGEST_FLOW_PKT',
+ 'NUM_PKTS_128_TO_256_BYTES',
+ 'TCP_WIN_MAX_IN',
+ 'L7_PROTO',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'IPV4_SRC_ADDR_CLASSE']
+
+**************************
+******mRMR*********
+****************
+
+['DNS_QUERY_TYPE',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'IPV4_SRC_ADDR_CLASSE',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'MIN_TTL',
+ 'SRC_TO_DST_SECOND_BYTES',
+ 'DNS_TTL_ANSWER',
+ 'OUT_BYTES',
+ 'OUT_PKTS',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'IN_PKTS',
+ 'L4_SRC_PORT_C',
+ 'DURATION_IN',
+ 'TCP_FLAGS',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'L7_PROTO',
+ 'L4_DST_PORT_C',
+ 'NUM_PKTS_128_TO_256_BYTES',
+ 'PROTOCOL',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'ICMP_TYPE',
+ 'TCP_WIN_MAX_IN',
+ 'ICMP_IPV4_TYPE',
+ 'RETRANSMITTED_IN_BYTES',
+ 'SRC_TO_DST_AVG_THROUGHPUT']
+
+*********************************************************************************************************
+*************************************** DATA ******************************************
+********************************************************************************************
+
+************************** X_chi2_20 **************************************
+
+[np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+
+
+
+************************** X_mRMR_50 **************************************
+
+[np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(6), np.int64(1), np.int64(4), np.int64(1), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(9), np.int64(1), np.int64(0), np.int64(1), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(7), np.int64(0), np.False_, np.False_, np.True_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(5), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(6), np.int64(2), np.int64(4), np.int64(1), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(7), np.int64(0), np.False_, np.False_, np.True_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(7), np.int64(1), np.int64(2), np.int64(1), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(7), np.int64(0), np.False_, np.False_, np.True_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(6), np.int64(1), np.int64(4), np.int64(1), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(4), np.int64(0), np.int64(6), np.int64(0), np.False_, np.False_, np.True_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.int64(9), np.int64(0), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+
+
+
+
+************************** X_mRMR_80 **************************************
+
+
+[np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(6), np.int64(1), np.int64(4), np.int64(1), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(6), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(9), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(7), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.False_, np.False_, np.True_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(5), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(6), np.int64(2), np.int64(4), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(7), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.False_, np.False_, np.True_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(7), np.int64(1), np.int64(2), np.int64(1), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(7), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.False_, np.False_, np.True_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(6), np.int64(1), np.int64(4), np.int64(1), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(0), np.int64(1), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(4), np.int64(0), np.int64(6), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.False_, np.False_, np.True_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+[np.int64(0), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.int64(9), np.int64(0), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_]
+
+
+******************************* X **************************************
+
+[np.int64(1), np.int64(0), np.int64(0), np.int64(1), np.int64(4), np.int64(6), np.int64(0), np.int64(1), np.int64(2), np.int64(2), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(6), np.int64(7), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(2), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(9), np.int64(0), np.int64(1), np.int64(2), np.int64(2), np.int64(6), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(6), np.int64(7), np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(2), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(7), np.int64(3), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(17), np.int64(999), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(4), np.int64(6), np.int64(0), np.int64(1), np.int64(2), np.int64(1), np.int64(5), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(6), np.int64(7), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(7), np.int64(3), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(17), np.int64(999), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(1), np.int64(2), np.int64(7), np.int64(0), np.int64(1), np.int64(2), np.int64(2), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(6), np.int64(7), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(7), np.int64(3), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(17), np.int64(999), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(1), np.int64(4), np.int64(6), np.int64(0), np.int64(1), np.int64(2), np.int64(2), np.int64(5), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.int64(6), np.int64(7), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(6), np.int64(4), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(3), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(2), np.int64(0), np.int64(0), np.int64(0), np.int64(17), np.int64(999), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+[np.int64(0), np.int64(1), np.int64(1), np.int64(2), np.int64(9), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0), np.int64(0), np.int64(2), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0), np.int64(6), np.int64(7), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(3), np.int64(3)]
+
+
+
+#######################################################################################################
+###################################################################################################
+#################################### Standarization ###########################################3####
+
+**************************************** ANOVA 80 **********************************
+['IN_PKTS',
+ 'OUT_BYTES',
+ 'OUT_PKTS',
+ 'TCP_FLAGS',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'DURATION_IN',
+ 'DURATION_OUT',
+ 'MIN_TTL',
+ 'LONGEST_FLOW_PKT',
+ 'SHORTEST_FLOW_PKT',
+ 'SRC_TO_DST_SECOND_BYTES',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'RETRANSMITTED_IN_BYTES',
+ 'RETRANSMITTED_OUT_BYTES',
+ 'RETRANSMITTED_OUT_PKTS',
+ 'SRC_TO_DST_AVG_THROUGHPUT',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'NUM_PKTS_128_TO_256_BYTES',
+ 'TCP_WIN_MAX_IN']
+
+*********************** KENDALL 80 **************************
+
+['DURATION_OUT',
+ 'RETRANSMITTED_OUT_PKTS',
+ 'RETRANSMITTED_OUT_BYTES',
+ 'MIN_TTL',
+ 'OUT_PKTS',
+ 'OUT_BYTES',
+ 'DST_TO_SRC_SECOND_BYTES',
+ 'TCP_WIN_MAX_OUT',
+ 'DST_TO_SRC_AVG_THROUGHPUT',
+ 'IN_PKTS',
+ 'TCP_FLAGS',
+ 'SRC_TO_DST_SECOND_BYTES',
+ 'TCP_WIN_MAX_IN',
+ 'DURATION_IN',
+ 'FLOW_DURATION_MILLISECONDS',
+ 'LONGEST_FLOW_PKT',
+ 'NUM_PKTS_UP_TO_128_BYTES',
+ 'RETRANSMITTED_IN_BYTES',
+ 'NUM_PKTS_128_TO_256_BYTES',
+ 'SRC_TO_DST_AVG_THROUGHPUT']
+
+
+*************** Chi2 ranking ********************
+['L7_PROTO',
+ 'L4_DST_PORT_C',
+ 'DNS_QUERY_TYPE',
+ 'DNS_TTL_ANSWER',
+ 'PROTOCOL',
+ 'L4_SRC_PORT_C',
+ 'ICMP_IPV4_TYPE',
+ 'ICMP_TYPE',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'IPV4_SRC_ADDR_CLASSE']
+
+
+***************** MI ranking ******************
+['DNS_QUERY_TYPE',
+ 'DNS_TTL_ANSWER',
+ 'PROTOCOL',
+ 'L7_PROTO',
+ 'ICMP_TYPE',
+ 'ICMP_IPV4_TYPE',
+ 'L4_SRC_PORT_C',
+ 'L4_DST_PORT_C',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'IPV4_SRC_ADDR_CLASSE']
+
+************************* mRMR ************************
+
+['DNS_QUERY_TYPE',
+ 'L7_PROTO',
+ 'IPV4_SRC_ADDR_CLASSE',
+ 'IPV4_DST_ADDR_CLASSE',
+ 'L4_SRC_PORT_C',
+ 'L4_DST_PORT_C',
+ 'DNS_TTL_ANSWER',
+ 'PROTOCOL']
+
+
+#######################################################################
+####################
+Instqnces 
+#####################
+
+
+
+******************* X_A_chi2_20 ******************************
+
+np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.20155873429734547), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.20155873429734547), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.20155873429734547), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.024689082208457534), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.024689082208457534), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.20155873429734547), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.024689082208457534), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.20155873429734547), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.024689082208457534), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.024689082208457534), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_]
+
+
+
+******************* X_A_chi2_50 ******************************
+
+[np.float64(0.005811383723942125), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.2722805669764397), np.float64(-1.3618677721574182), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.04884479425566856), np.float64(-0.20155873429734547), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.27170583031344425), np.float64(-0.26873149102386173), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.017451408728978022), np.float64(-0.20155873429734547), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.2718347776416804), np.float64(-0.5139864258935699), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.017451408728978022), np.float64(-0.20155873429734547), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(0.005811383723942125), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27049096227099073), np.float64(2.0419203596414603), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.04533536232440305), np.float64(0.024689082208457534), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27088517267445555), np.float64(1.2921409873254954), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.04533536232440305), np.float64(0.024689082208457534), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.2718347776416804), np.float64(-0.5139864258935699), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.017451408728978022), np.float64(-0.20155873429734547), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(0.005811383723942125), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27124438308882776), np.float64(0.6089308116170226), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.04533536232440305), np.float64(0.024689082208457534), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(0.005811383723942125), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.2722805669764397), np.float64(-1.3618677721574182), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.04884479425566856), np.float64(-0.20155873429734547), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27166161980090614), np.float64(-0.18464408478281893), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.04533536232440305), np.float64(0.024689082208457534), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27194990918474843), np.float64(-0.7329640463129522), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.04533536232440305), np.float64(0.024689082208457534), np.int64(0), np.int64(0), np.True_, np.False_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+
+
+******************* X_K_mRMR_80 ******************************
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(0.005811383723942125), np.float64(-0.4914724814155454), np.float64(-0.0006689654931157873), np.float64(-0.20155873429734547), np.float64(-1.3618677721574182), np.float64(0.2722805669764397), np.float64(-0.7209538894013755), np.float64(0.04884479425566856), np.float64(-0.006179854324608974), np.float64(-0.42986806725487814), np.float64(-0.2076011753861185), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(-0.007274527444198753), np.float64(-0.4914724814155454), np.float64(-0.0006689654928895421), np.float64(-0.20155873429734547), np.float64(-0.26873149102386173), np.float64(0.27170583031344425), np.float64(-0.7209538894013755), np.float64(0.017451408728978022), np.float64(-0.006179854324608974), np.float64(-0.42986806725487814), np.float64(-0.12843545053199212), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(-0.007274527444198753), np.float64(-0.4914724814155454), np.float64(-0.0006689654928895421), np.float64(-0.20155873429734547), np.float64(-0.5139864258935699), np.float64(0.2718347776416804), np.float64(-0.7209538894013755), np.float64(0.017451408728978022), np.float64(-0.006179854324608974), np.float64(-0.42986806725487814), np.float64(-0.12843545053199212), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(0.005811383723942125), np.float64(-0.2078813252846403), np.float64(-0.0006689654815564982), np.float64(0.024689082208457534), np.float64(2.0419203596414603), np.float64(0.27049096227099073), np.float64(0.7303835169565088), np.float64(-0.04533536232440305), np.float64(0.026102624830374836), np.float64(0.8875614630240755), np.float64(0.18822744888451345), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(-0.007274527444198753), np.float64(-0.2078813252846403), np.float64(-0.0006689654815680413), np.float64(0.024689082208457534), np.float64(1.2921409873254954), np.float64(0.27088517267445555), np.float64(0.7303835169565088), np.float64(-0.04533536232440305), np.float64(-0.006179854324608974), np.float64(0.44841828626442426), np.float64(0.18822744888451345), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(-0.007274527444198753), np.float64(-0.4914724814155454), np.float64(-0.0006689654928895421), np.float64(-0.20155873429734547), np.float64(-0.5139864258935699), np.float64(0.2718347776416804), np.float64(-0.7209538894013755), np.float64(0.017451408728978022), np.float64(-0.006179854324608974), np.float64(-0.42986806725487814), np.float64(-0.12843545053199212), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(0.005811383723942125), np.float64(-0.2078813252846403), np.float64(-0.0006689654815564982), np.float64(0.024689082208457534), np.float64(0.6089308116170226), np.float64(0.27124438308882776), np.float64(0.7303835169565088), np.float64(-0.04533536232440305), np.float64(-0.006179854324608974), np.float64(0.8875614630240755), np.float64(0.18822744888451345), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(0.005811383723942125), np.float64(-0.4914724814155454), np.float64(-0.0006689654931157873), np.float64(-0.20155873429734547), np.float64(-1.3618677721574182), np.float64(0.2722805669764397), np.float64(-0.7209538894013755), np.float64(0.04884479425566856), np.float64(-0.006179854324608974), np.float64(-0.42986806725487814), np.float64(-0.2076011753861185), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(-0.007274527444198753), np.float64(-0.2078813252846403), np.float64(-0.0006689654815680413), np.float64(0.024689082208457534), np.float64(-0.18464408478281893), np.float64(0.27166161980090614), np.float64(0.7303835169565088), np.float64(-0.04533536232440305), np.float64(0.026102624830374836), np.float64(0.44841828626442426), np.float64(0.18822744888451345), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+[np.float64(-0.06416212619290072), np.float64(-0.019377667012714875), np.float64(-0.01697545231660325), np.float64(0.2927621506564031), np.float64(-0.005287989755858132), np.float64(-0.0023919858575767055), np.float64(0.0016102712105984089), np.float64(-0.18433755010738373), np.float64(-0.025135854072403086), np.float64(-0.007274527444198753), np.float64(-0.2078813252846403), np.float64(-0.0006689654815680413), np.float64(0.024689082208457534), np.float64(-0.7329640463129522), np.float64(0.27194990918474843), np.float64(0.7303835169565088), np.float64(-0.04533536232440305), np.float64(-0.006179854324608974), np.float64(0.44841828626442426), np.float64(0.18822744888451345), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_]
+
+
+
+************************ X ****************************
+[np.float64(0.005811383723942125), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.2722805669764397), np.float64(-1.3618677721574182), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.8470365046277504), np.float64(-0.0006689654931157873), np.float64(0.0016102712105984089), np.float64(-0.006179854324608974), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.2076011753861185), np.float64(-0.025135854072403086), np.float64(0.04884479425566856), np.float64(-0.42986806725487814), np.float64(-0.20155873429734547), np.float64(-0.18433755010738373), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.27170583031344425), np.float64(-0.26873149102386173), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.8470365046277504), np.float64(-0.0006689654928895421), np.float64(0.0016102712105984089), np.float64(-0.006179854324608974), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.12843545053199212), np.float64(-0.025135854072403086), np.float64(0.017451408728978022), np.float64(-0.42986806725487814), np.float64(-0.20155873429734547), np.float64(-0.18433755010738373), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.2718347776416804), np.float64(-0.5139864258935699), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.8470365046277504), np.float64(-0.0006689654928895421), np.float64(0.0016102712105984089), np.float64(-0.006179854324608974), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.12843545053199212), np.float64(-0.025135854072403086), np.float64(0.017451408728978022), np.float64(-0.42986806725487814), np.float64(-0.20155873429734547), np.float64(-0.18433755010738373), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(0.005811383723942125), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27049096227099073), np.float64(2.0419203596414603), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(1.2344545963365536), np.float64(-0.0006689654815564982), np.float64(0.0016102712105984089), np.float64(0.026102624830374836), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.18822744888451345), np.float64(-0.025135854072403086), np.float64(-0.04533536232440305), np.float64(0.8875614630240755), np.float64(0.024689082208457534), np.float64(-0.18433755010738373), np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27088517267445555), np.float64(1.2921409873254954), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(1.2344545963365536), np.float64(-0.0006689654815680413), np.float64(0.0016102712105984089), np.float64(-0.006179854324608974), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.18822744888451345), np.float64(-0.025135854072403086), np.float64(-0.04533536232440305), np.float64(0.44841828626442426), np.float64(0.024689082208457534), np.float64(-0.18433755010738373), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.2718347776416804), np.float64(-0.5139864258935699), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.8470365046277504), np.float64(-0.0006689654928895421), np.float64(0.0016102712105984089), np.float64(-0.006179854324608974), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.12843545053199212), np.float64(-0.025135854072403086), np.float64(0.017451408728978022), np.float64(-0.42986806725487814), np.float64(-0.20155873429734547), np.float64(-0.18433755010738373), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(0.005811383723942125), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27124438308882776), np.float64(0.6089308116170226), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(1.2344545963365536), np.float64(-0.0006689654815564982), np.float64(0.0016102712105984089), np.float64(-0.006179854324608974), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.18822744888451345), np.float64(-0.025135854072403086), np.float64(-0.04533536232440305), np.float64(0.8875614630240755), np.float64(0.024689082208457534), np.float64(-0.18433755010738373), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(0.005811383723942125), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.4914724814155454), np.float64(0.2722805669764397), np.float64(-1.3618677721574182), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(-0.7209538894013755), np.float64(-0.8470365046277504), np.float64(-0.0006689654931157873), np.float64(0.0016102712105984089), np.float64(-0.006179854324608974), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(-0.2076011753861185), np.float64(-0.025135854072403086), np.float64(0.04884479425566856), np.float64(-0.42986806725487814), np.float64(-0.20155873429734547), np.float64(-0.18433755010738373), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27166161980090614), np.float64(-0.18464408478281893), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(1.2344545963365536), np.float64(-0.0006689654815680413), np.float64(0.0016102712105984089), np.float64(0.026102624830374836), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.18822744888451345), np.float64(-0.025135854072403086), np.float64(-0.04533536232440305), np.float64(0.44841828626442426), np.float64(0.024689082208457534), np.float64(-0.18433755010738373), np.int64(0), np.int64(1), np.int64(1), np.int64(0), np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+[np.float64(-0.007274527444198753), np.float64(-0.0023919858575767055), np.float64(-0.005287989755858132), np.float64(-0.2078813252846403), np.float64(0.27194990918474843), np.float64(-0.7329640463129522), np.float64(-0.06416212619290072), np.float64(0.2927621506564031), np.float64(0.7303835169565088), np.float64(1.2344545963365536), np.float64(-0.0006689654815680413), np.float64(0.0016102712105984089), np.float64(-0.006179854324608974), np.float64(-0.01697545231660325), np.float64(-0.019377667012714875), np.float64(0.18822744888451345), np.float64(-0.025135854072403086), np.float64(-0.04533536232440305), np.float64(0.44841828626442426), np.float64(0.024689082208457534), np.float64(-0.18433755010738373), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.False_, np.True_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_, np.False_, np.True_, np.False_]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
