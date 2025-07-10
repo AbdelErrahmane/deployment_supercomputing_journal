@@ -82,9 +82,14 @@ curl -X POST "http://localhost:8000/predict?model_subpath=TON_STD/XGB_200.pkl&in
 
 curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/XGB_200_Chi2_20.pkl&input_file=BOT_DST_chi2_20.json"
 
+curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/CTB_150_Chi2_20.pkl&input_file=BOT_DST_chi2_20.json"
+
+
+
 curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/XGB_200_mRMR_50.pkl&input_file=BOT_DST_mRMR_50.json"
 
 curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/XGB_150_mRMR_80.pkl&input_file=BOT_DST_mRMR_80.json"
+
 
 curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/XGB_200.pkl&input_file=BOT_DST_100.json"
 
