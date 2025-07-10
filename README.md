@@ -24,17 +24,83 @@ This project provides a FastAPI-based REST API for serving XGBoost models with d
 - Docker (on Raspberry Pi or ARM64 device)
 - Python 3.11+ (for local development)
 
-## Build the Docker Image (for Raspberry Pi/ARM64)
+## How to Build and Launch with Docker (Raspberry Pi/ARM64)
+
+### 1. Build the Docker Image
+Run this command in your project root (where the Dockerfile is):
+
+```bash
+docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+```
 
 ```bash
 docker build --platform linux/arm64 -t fastapi-xgb-arm .
 ```
+- `--platform linux/arm64` ensures the image is compatible with Raspberry Pi/ARM64.
+- `-t fastapi-xgb-arm` names your image for easy reference.
 
-## Run the Docker Container (limit to 1GB RAM, 1 CPU)
+### 2. Run the Docker Container with Resource Limits
+Start the container, mapping port 8000 and limiting to 1GB RAM and 1 CPU:
 
 ```bash
-docker run --rm -p 8000:8000 --memory=1g --cpus=1 fastapi-xgb-arm
+docker run  -p 8000:8000 --memory=1g --cpus=1 fastapi-xgb-arm
 ```
+- `--rm` removes the container after it stops. (add it if you needed)
+- `-p 8000:8000` maps the API to your host's port 8000.
+- `--memory=1g` limits RAM usage to 1GB.
+- `--cpus=1` limits the container to 1 CPU core.
+
+### 3. Test the API
+After the container is running, you can test the prediction endpoint with curl:
+
+```bash
+
+# Discretization with NF-ToN-IoT-v2
+
+
+curl -X POST "http://localhost:8000/predict?model_subpath=TON_DISC/XGB_200_chi2_20.pkl&input_file=TON_DST_chi2_20.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=TON_DISC/XGB_200_chi2_50.pkl&input_file=TON_DST_chi2_50.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=TON_DISC/XGB_200_mRMR_80.pkl&input_file=TON_DST_mRMR_80.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=TON_DISC/XGB_200.pkl&input_file=TON_DST_100.json"
+
+
+# Standarization with NF-ToN-IoT-v2
+
+curl -X POST "http://localhost:8000/predict?model_subpath=TON_STD/XGB_200_K_MI_20.pkl&input_file=TON_STD_K_MI_20.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=TON_STD/XGB_200_A_mRMR_50.pkl&input_file=TON_STD_A_mRMR_50.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=TON_STD/XGB_200_A_mRMR_80.pkl&input_file=TON_STD_A_mRMR_80.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=TON_STD/XGB_200.pkl&input_file=TON_STD_100.json"
+
+# Discretization with NF-bOt-IoT-v2
+
+
+curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/XGB_200_Chi2_20.pkl&input_file=BOT_DST_chi2_20.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/XGB_200_mRMR_50.pkl&input_file=BOT_DST_mRMR_50.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/XGB_150_mRMR_80.pkl&input_file=BOT_DST_mRMR_80.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=BOT_DISC/XGB_200.pkl&input_file=BOT_DST_100.json"
+
+
+
+# Standarization with NF-BoT-IoT-v2
+
+curl -X POST "http://localhost:8000/predict?model_subpath=BOT_STD/XGB_200_A_Chi2_20.pkl&input_file=BOT_STD_A_chi2_50.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=BOT_STD/XGB_200_A_Chi2_50.pkl&input_file=BOT_STD_A_chi2_50.json"
+
+curl -X POST "http://localhost:8000/predict?model_subpath=BOT_STD/XGB_200_.pkl&input_file=BOT_STD_100.json"
+
+
+```
+Replace the model and input file names as needed for your use case.
 
 ## API Usage
 
